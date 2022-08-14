@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpaca Generator</title>
+    <link rel="stylesheet" href="CSS/alpacagen.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="logo">
+        <span class="g">A</span>lpaca <span class="g">G</span>enerator
+      </div>
+      <div class="menu">
+        <ul class="menubar">
+          <a href="#customize"><li>customize</li></a>
+          <a href="#tutorial"><li>Tutorial</li></a>
+        </ul>
+      </div>
+    </header>
+    <div class="note"><p>choose your background first</p></div>
+    <div class="instructions"><h5>You have a blank space to customize your alpaca, you can refer to the tutorial below</h5></div>
+    <div class="real" align="center">
+      <div class="display" id="customize">
+        <div class="displaybox">
+          <div  id="content" class="alpaca">
+            <!-- <img
+              class="backdrop"
+              src="images/toppng.com-and-blank-effect-transparent-600x458.png"
+              alt=""
+            /> -->
+            <img
+              src="alpaca-generator-assets\alpaca/hair/curls.png"
+              alt="curls"
+              class="hiddenHair"
+              id="curlss"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/hair/elegant.png"
+              alt="elegant"
+              class="hiddenHair"
+              id="elegants"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/hair/fancy.png"
+              alt="fancy"
+              class="hiddenHair"
+              id="fancys"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/hair/quiff.png"
+              alt="quiff"
+              class="hiddenHair"
+              id="quiffs"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/hair/bang.png"
+              alt="bang"
+              class="hiddenHair"
+              id="bangs"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/hair/short.png"
+              alt="short"
+              class="hiddenHair"
+              id="shorts"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/hair/default.png"
+              alt="default"
+              class="hiddenHair"
+              id="defaulthair"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/ears/tilt-backward.png"
+              alt="tilt-backward"
+              class="hiddenEars"
+              id="tilt-backwards"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/ears/tilt-forward.png"
+              alt="tilt-forward"
+              class="hiddenEars"
+              id="tilt-forwards"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/ears/default.png"
+              alt="default"
+              class="hiddenEars"
+              id="defaultear"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/eyes/smart.png"
+              alt="smart"
+              class="hiddenEyes"
+              id="smarts"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/eyes/panda.png"
+              alt="panda"
+              class="hiddenEyes"
+              id="pandas"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/eyes/star.png"
+              alt="star"
+              class="hiddenEyes"
+              id="stars"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/eyes/angry.png"
+              alt="angry"
+              class="hiddenEyes"
+              id="angrys"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/eyes/default.png"
+              alt="default"
+              class="hiddenEyes"
+              id="defaulteyes"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/eyes/naughty.png"
+              alt="naughty"
+              class="hiddenEyes"
+              id="naughtys"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/mouth/laugh.png"
+              alt="laugh"
+              class="hiddenMouth"
+              id="laughs"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/mouth/tongue.png"
+              alt="tongue"
+              class="hiddenMouth"
+              id="tongues"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/mouth/astonished.png"
+              alt="astonished"
+              class="hiddenMouth"
+              id="astonisheds"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/mouth/eating.png"
+              alt="eating"
+              class="hiddenMouth"
+              id="eatings"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/mouth/default.png"
+              alt="default"
+              class="hiddenMouth"
+              id="defaultmouth"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/neck/bend-backward.png"
+              alt="bend-backward"
+              class="hiddenNeck"
+              id="bend-backwards"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/neck/bend-forward.png"
+              alt="bend-forward"
+              class="hiddenNeck"
+              id="bend-forwards"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/neck/default.png"
+              alt="defaultneck"
+              class="hiddenNeck"
+              id="defaultnecks"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/neck/thick.png"
+              alt="thick"
+              class="hiddenNeck"
+              id="thicks"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/leg/bubble-tea.png"
+              alt="bubble-tea"
+              class="hiddenLeg"
+              id="bubble-teas"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/leg/game-console.png"
+              alt="game-console"
+              class="hiddenLeg"
+              id="game-consoles"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/leg/cookie.png"
+              alt="cookie"
+              class="hiddenLeg"
+              id="cookies"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/leg/tilt-backward.png"
+              alt="tilt-backward"
+              class="hiddenLeg"
+              id="tilt-backwardleg"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/leg/tilt-forward.png"
+              alt="tilt-forward"
+              class="hiddenLeg"
+              id="tilt-forwardleg"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/leg/default.png"
+              alt="default"
+              class="hiddenLeg"
+              id="defaultleg"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/accessories/glasses.png"
+              alt="glasses"
+              class="hiddenAccessories"
+              id="glassess"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/accessories/headphone.png"
+              alt="headphone"
+              class="hiddenAccessories"
+              id="headphones"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/accessories/flower.png"
+              alt="flower"
+              class="hiddenAccessories"
+              id="flowers"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/accessories/earings.png"
+              alt="earings"
+              class="hiddenAccessories"
+              id="earingss"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/blue50.png"
+              alt="blue50"
+              class="hiddenBack"
+              id="blue50s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/blue60.png"
+              alt="blue60"
+              class="hiddenBack"
+              id="blue60s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/blue70.png"
+              alt="blue70"
+              class="hiddenBack"
+              id="blue70s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/darkblue30.png"
+              alt="darkblue30"
+              class="hiddenBack"
+              id="darkblue30s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/darkblue50.png"
+              alt="darkblue50"
+              class="hiddenBack"
+              id="darkblue50s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/darkblue70.png"
+              alt="darkblue70"
+              class="hiddenBack"
+              id="darkblue70s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/green50.png"
+              alt="green50"
+              class="hiddenBack"
+              id="green50s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/green60.png"
+              alt="green60"
+              class="hiddenBack"
+              id="green60s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/green70.png"
+              alt="green70"
+              class="hiddenBack"
+              id="green70s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/grey40.png"
+              alt="grey40"
+              class="hiddenBack"
+              id="grey40s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/grey70.png"
+              alt="grey70"
+              class="hiddenBack"
+              id="grey70s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/grey80.png"
+              alt="grey80"
+              class="hiddenBack"
+              id="grey80s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/red50.png"
+              alt="red50"
+              class="hiddenBack"
+              id="red50s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/red60.png"
+              alt="red60"
+              class="hiddenBack"
+              id="red60s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/red70.png"
+              alt="red70"
+              class="hiddenBack"
+              id="red70s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/yellow50.png"
+              alt="yellow50"
+              class="hiddenBack"
+              id="yellow50s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/yellow60.png"
+              alt="yellow60"
+              class="hiddenBack"
+              id="yellow60s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/backgrounds/yellow70.png"
+              alt="yellow70"
+              class="hiddenBack"
+              id="yellow70s"
+            />
+            <img
+              src="alpaca-generator-assets\alpaca/nose.png"
+              alt="nose"
+              class="hiddenNose"
+              id="default-noses"
+            />
+          </div>
+          <div class="spa">
+            <button class="btn" id="random">Random</button
+            ><button class="btn download" id="download">Download
+            </button>
+          </div>
+        </div>
+
+        <div class="items">
+          <div class="firstbox">
+            <p>Accessorize the alpacas</p>
+            <ul class="accessorize" id="accessorize">
+              <li>
+                <a data-ul="backgrounds" class="hair" id="background" href="#"
+                  >Background</a
+                >
+              </li>
+              <li>
+                <a data-ul="necks" class="hair" id="neck" href="#">Neck</a>
+              </li>
+              <li>
+                <a data-ul="hairs" class="hair" id="hair" href="#">Hair</a>
+              </li>
+              <li>
+                <a data-ul="earss" class="hair" id="ears" href="#">Ears</a>
+              </li>
+              <li>
+                <a data-ul="eyess" class="hair" class="eyes" id="eyes" href="#"
+                  >Eyes</a
+                >
+              </li>
+              <li>
+                <a data-ul="mouths" class="hair" id="mouth" href="#">Mouth</a>
+              </li>
+              <li>
+                <a data-ul="noses" class="hair" id="nose" href="#">Nose</a>
+              </li>
+              <li><a data-ul="legs" class="hair" id="leg" href="#">Leg</a></li>
+              <li>
+                <a data-ul="accessoriess" class="hair" id="accessories" href="#"
+                  >Accessories</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="secondbox">
+            <p>Style</p>
+            <ul class="hide" id="hairs">
+              <li class="hai" data-img="curlss" id="curls">curls</li>
+              <li class="hai" data-img="elegants" id="elegant">elegant</li>
+              <li class="hai" data-img="fancys" id="fancy">fancy</li>
+              <li class="hai" data-img="quiffs" id="quiff">quiff</li>
+              <li class="hai" data-img="bangs" id="bang">bang</li>
+              <li class="hai" data-img="shorts" id="short">short</li>
+              <li class="hai" data-img="defaulthair" id="defaulth">default</li>
+            </ul>
+            <ul class="hide" id="earss">
+              <li class="hai" data-img="tilt-backwards" id="tilt-backwardear">
+                tilt-backward
+              </li>
+              <li class="hai" data-img="tilt-forwards" id="tilt-forwardear">
+                tilt-forward
+              </li>
+              <li class="hai" data-img="defaultear" id="defaulte">default</li>
+            </ul>
+            <ul class="hide" id="noses">
+              <li class="hai" data-img="default-noses" id="default-nose">
+                default-nose
+              </li>
+            </ul>
+            <ul class="hide" id="eyess">
+              <li class="hai" data-img="smarts" id="smart">smart</li>
+              <li class="hai" data-img="pandas" id="panda">panda</li>
+              <li class="hai" data-img="stars" id="star">star</li>
+              <li class="hai" data-img="angrys" id="angry">angry</li>
+              <li class="hai" data-img="defaulteyes" id="defaultey">default</li>
+              <li class="hai" data-img="naughtys" id="naughty">naughty</li>
+            </ul>
+            <ul class="hide" id="mouths">
+              <li class="hai" data-img="laughs" id="laugh">laugh</li>
+              <li class="hai" data-img="tongues" id="tongue">tongue</li>
+              <li class="hai" data-img="astonisheds" id="astonished">
+                astonished
+              </li>
+              <li class="hai" data-img="eatings" id="eating">eating</li>
+              <li class="hai" data-img="defaultmouth" id="defaultm">default</li>
+            </ul>
+            <ul class="hide" id="necks">
+              <li class="hai" data-img="bend-backwards" id="bend-backward">
+                bend-backward
+              </li>
+              <li class="hai" data-img="bend-forwards" id="bend-forward">
+                bend-forward
+              </li>
+              <li class="hai" data-img="defaultnecks" id="defaultn">default</li>
+              <li class="hai" data-img="thicks" id="thick">thick</li>
+            </ul>
+            <ul class="hide" id="legs">
+              <li class="hai" data-img="bubble-teas" id="bubble-tea">
+                bubble-tea
+              </li>
+              <li class="hai" data-img="game-consoles" id="game-console">
+                game-console
+              </li>
+              <li class="hai" data-img="cookies" id="cookie">cookie</li>
+              <li class="hai" data-img="tilt-backwardleg" id="tilt-backwardl">
+                tilt-backward
+              </li>
+              <li class="hai" data-img="tilt-forwardleg" id="tilt-forwardl">
+                tilt-forward
+              </li>
+              <li class="hai" data-img="defaultleg" id="defaultl">default</li>
+            </ul>
+            <ul class="hide" id="accessoriess">
+              <li class="hai" data-img="glassess" id="glasses">glasses</li>
+              <li class="hai" data-img="headphones" id="headphone">
+                headphones
+              </li>
+              <li class="hai" data-img="flowers" id="flower">flower</li>
+              <li class="hai" data-img="earingss" id="earings">earings</li>
+            </ul>
+            <ul class="hide" id="backgrounds">
+              <li class="hai" data-img="blue50s" id="blue50">blue50</li>
+              <li class="hai" data-img="blue60s" id="blue60">blue60</li>
+              <li class="hai" data-img="blue70s" id="blue70">blue70</li>
+              <li class="hai" data-img="darkblue30s" id="darkblue30">darkblue30</li>
+              <li class="hai" data-img="darkblue50s" id="darkblue50">darkblue50</li>
+              <li class="hai" data-img="darkblue70s" id="darkblue70">darkblue70</li>
+              <li class="hai" data-img="green50s" id="green50">green50</li>
+              <li class="hai" data-img="green60s" id="green60">green60</li>
+              <li class="hai" data-img="green70s" id="green70">green70</li>
+              <li class="hai" data-img="grey40s" id="grey40">grey40</li>
+              <li class="hai" data-img="grey70s" id="grey70">grey70</li>
+              <li class="hai" data-img="grey80s" id="grey80">grey80</li>
+              <li class="hai" data-img="red50s" id="red50">red50</li>
+              <li class="hai" data-img="red60s" id="red60">red60</li>
+              <li class="hai" data-img="red70s" id="red70">red70</li>
+              <li class="hai" data-img="yellow50s" id="yellow50">yellow50</li>
+              <li class="hai" data-img="yellow60s" id="yellow60">yellow60</li>
+              <li class="hai" data-img="yellow70s" id="yellow70">yellow70</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr size="1px" width="90%" color="grey" />
+    <section class="tut">
+      <div class="tutorial" id="tutorial">
+        <img src="i/Alpaca_demo_-_10.gif" alt="tutorial" class="al" />
+      </div>
+    </section>
+    <div class="totop">
+      <a href="#header"><img src="i/images (25).png" class="gotop" alt="go to top"></a> 
+    </div>
+    <script src="JS/aplacagen.js"></script>
+    <script src="JS1/html2canvas.min.js"></script>
+  </body>
+</html>
+

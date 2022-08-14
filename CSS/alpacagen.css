@@ -1,0 +1,701 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(
+    to right,
+    rgba(253, 253, 253, 0.7),
+    rgba(159, 159, 161, 0.3)
+  );
+  background-position: center;
+  background-size: cover;
+}
+/*header*/
+.header {
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, "Helvetica-Neue", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-position: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.logo {
+  margin: 10px;
+  padding-left: 10px;
+}
+.instructions{
+  color: red;
+  font-weight: 700;
+  padding-left: 40px;
+}
+.menu {
+  margin-right: 11px;
+}
+.menubar {
+  font-size: 0.5em;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+}
+.menubar li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  position: inherit;
+  margin-right: 10px;
+  color: black;
+  border: solid 1.5px;
+  padding: 5px 11px;
+  border-radius: 12px;
+}
+.g {
+  color: rgb(99, 148, 253) transparent;
+  font-size: 1.2em;
+  font-weight: 700;
+  transition: 0.5s ease;
+}
+.tutorial {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.tut {
+  margin: auto;
+  margin-bottom: 30px;
+}
+hr{
+  margin: 50px;
+  position: relative;
+}
+.al {
+  border: solid 2px;
+  width: 70%;
+}
+.real {
+  margin: auto;
+  text-align: start;
+  min-height: 100vh;
+  max-height: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.display {
+  margin: auto;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  justify-content: space-between;
+  display: flex;
+  width: 70%;
+}
+.displaybox {
+  margin: auto;
+  margin-top: 8px;
+  width: 100%;
+  height: 100%;
+}
+.alpaca{
+  position: absolute;
+  display: flex;
+  width: 30vw;
+  min-width: 30vw;
+  min-height: 30vw;
+  margin: auto;
+}
+.backdrop {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+}
+.spa{
+  justify-content: space-evenly;
+  display: flex;
+  position: relative;
+  margin: auto;
+  margin-top: -7vh;
+  padding: 0px;
+}
+.btn{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  color: black;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 750;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+.btn a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 750;
+}
+.firstbox {
+  width: 100%;
+  height: fit-content;
+}
+.secondbox {
+  width: 100%;
+  height: fit-content;
+}
+.firstbox li,
+.secondbox li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 2px;
+  margin-left: 1px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.items {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+div p {
+  margin-left: 45px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 800;
+  font-family: Arial, Helvetica, "Helvetica-Neue", sans-serif;
+}
+.note{
+  color: grey;
+  /*left: 50%;*/
+  padding-bottom: 10px;
+  position: relative;
+}
+.hide {
+  display: none;
+}
+.hide2 {
+  display: "";
+}
+.hair {
+  text-decoration: none;
+  color: black;
+  border: solid 1px;
+  padding: 6px 20px;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, "Helvetica-Neue", sans-serif;
+}
+.hair2 {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, "Helvetica-Neue", sans-serif;
+}
+.hai {
+  text-decoration: none;
+  color: black;
+  border: solid 1px;
+  padding: 6px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, "Helvetica-Neue", sans-serif;
+}
+.hair3 {
+  color: white;
+  border-color: blue;
+  background-color: blue;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 20px;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, "Helvetica-Neue", sans-serif;
+}
+#hair:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#ears:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#nose:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#eyes:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#mouth:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#neck:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#leg:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#accessories:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#background:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+/*hair*/
+#curls:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#elegant:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#fancy:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#quiff:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#bang:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#short:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#defaulth:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+/*ears*/
+#tilt-backwardear:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#tilt-forwardear:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#defaulte:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+/*eyes*/
+#smart:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#panda:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#star:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#angry:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#defaultey:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#naughty:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+/*mouth*/
+#laugh:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#tongue:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#astonished:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#eating:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#defaultm:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+/*neck*/
+#bend-backward:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#bend-forward:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#default-nose:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#thick:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+/*leg*/
+#bubble-tea:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#game-console:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#cookie:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#tilt-forwardl:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#tilt-backwardl:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#defaultl:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+/*accessories*/
+#glasses:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#headphone:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#flower:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#earings:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+/*background*/
+#blue50:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#blue60:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#blue70:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#darkblue30:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#darkblue50:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#darkblue70:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#green50:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#green60:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#green70:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#grey40:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#grey70:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#grey80:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#red50:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#red60:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#red70:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#yellow50:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#yellow60:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#yellow70:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+#default-nose:hover {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+.hiddenHair{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenHair2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+  z-index: 2;
+}
+.hiddenEars{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenEars2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit
+}
+.hiddenEyes{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;;
+}
+.hiddenEyes2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+  z-index: 3;
+}
+.hiddenMouth{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenMouth2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+  z-index: 4;
+}
+.hiddenNeck{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenNeck2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenNose{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenNose2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenLeg{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenLeg2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenAccessories{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenAccessories2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+  z-index: 1;
+}
+.hiddenBack{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+}
+.hiddenBack2{
+  display: "";
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  position: inherit;
+  z-index: -2;
+  transition: 2s;
+}
+#glassess{
+  z-index: 2;
+}
+#flowers{
+  z-index: 2;
+}
+.totop{
+  max-width: 20px;
+  position: absolute;
+  right: 25px;
+}
+.gotop{
+  width: 100%;
+  margin-bottom: 15px;
+  box-shadow: white 0 0 10px;
+}
